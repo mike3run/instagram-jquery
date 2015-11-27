@@ -1,0 +1,10 @@
+// Breakpoints para los media queries 🐶
+@import "breakpoints"
+
+=mq ($breakpoint)
+  $value: map-get($breakpoints, $breakpoint)
+  @if $value != null
+    @media (min-width: $value)
+      @content
+  @else
+    @error "Desafortunadamente #{$breakpoint} no existe 😩 revisa el archivo _breakpoints.scss para saber cuales puedes usar."

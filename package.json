@@ -1,0 +1,30 @@
+{
+  "name": "insta",
+  "version": "1.0.0",
+  "description": "a lil jquery plugin for easy recent instagram pics",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/mike3run/insta.git"
+  },
+  "keywords": [
+    "instagram",
+    "jquery",
+    "flexbox",
+    "sass"
+  ],
+  "author": "Miguel Palau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/mike3run/insta/issues"
+  },
+  "homepage": "https://gitlab.com/mike3run/insta#README",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-obfuscate": "^0.2.9"
+  }
+}
