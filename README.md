@@ -1,5 +1,7 @@
 # Instagram API Test
 
+[Demo: Click Here](http://mike3run.github.io/instagram-jquery/)
+
 A little test to integrate myself with the API from instagram to display recent posts.
 
 ![Giphy](http://media0.giphy.com/media/OJbr914LLiETe/giphy.gif)
