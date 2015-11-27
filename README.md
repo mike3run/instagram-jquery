@@ -1,4 +1,4 @@
-# Instagram API Test
+# Instagram jQuery Plugin
 
 [Demo: Click Here](http://mike3run.github.io/instagram-jquery/)
 
