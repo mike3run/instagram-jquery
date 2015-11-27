@@ -1,0 +1,8 @@
+/*!
+ * An Instagram API Get-Recents Thing by: @mpalau
+ * Using the BEM and SMACSS principles.
+ * Version 0.1
+ * Copyright 2015
+ *
+ * Note: Uses Autoprefixer 😜
+ */*{box-sizing:border-box}#instagram{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:90%;margin-left:auto;margin-right:auto}#instagram .instagram__foto{-webkit-box-flex:1;-webkit-flex:1 100%;-ms-flex:1 100%;flex:1 100%;position:relative}@media (min-width: 21.875em){#instagram .instagram__foto{-webkit-flex-basis:50%;-ms-flex-preferred-size:50%;flex-basis:50%}}@media (min-width: 53.125em){#instagram .instagram__foto{-webkit-flex-basis:25%;-ms-flex-preferred-size:25%;flex-basis:25%}}@media (min-width: 75em){#instagram .instagram__foto{-webkit-flex-basis:16.6666666667%;-ms-flex-preferred-size:16.6666666667%;flex-basis:16.6666666667%}}#instagram .instagram__foto--descripcion{width:100%;height:100%;position:absolute;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;background:#fff;bottom:0;opacity:0;padding:5%;-webkit-transition:0.3s cubic-bezier(0.4, 0, 1, 1);transition:0.3s cubic-bezier(0.4, 0, 1, 1);text-align:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:initial}#instagram .instagram__foto--descripcion:hover{opacity:0.8}#instagram .instagram__foto--descripcion span{font-size:14px;opacity:1;max-width:100%;max-height:100%;overflow:hidden}#instagram .instagram__foto--link{width:100%;display:block}#instagram .instagram__foto img{max-width:100%}
