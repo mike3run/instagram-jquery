@@ -15,6 +15,8 @@ gulp.task('deploy', function() {
 
 gulp.task('default', function () {
   return  gulp.src('./dist/js/insta-min.js')
-          .pipe(obfuscate())
+          .pipe(obfuscate({
+            exclude: ['a']
+          }))
           .pipe(gulp.dest('dist/js'));
 });
